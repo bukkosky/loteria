@@ -1,0 +1,42 @@
+html {
+    background: linear-gradient(#3A5A98, #01A0E2);
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    height: 100vh;
+    
+}
+
+button {
+    display: block;
+    margin: 50px auto;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #FDB813;
+    color: #0362B0;
+    transition: .3s;
+    border: 2px solid 0362B0;
+    border-radius: 10px;
+}
+button:hover {
+    background: #0362B0;
+    color: #FDB813;
+}
+div {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: #FFD105;
+    border: 2px solid #FDB813;
+    border-radius: 50%;
+    margin: 20px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    transition: .3s;
+}
+div:hover{
+    font-size: 30px;
+}
